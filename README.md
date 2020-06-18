@@ -18,4 +18,7 @@ Choose Next: Tags.
 Choose Next: Review. 
 For Role name, enter a unique name for your role, such as AmazonEKSFargatePodExecutionRole, then choose Create role. 
 
+Step #3 Create Fargate Profile
+
+eksctl create fargateprofile --cluster prod --name prodprofile --namespace prod --labels name=prod
 
